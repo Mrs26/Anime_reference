@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title> La reférence Romance </title>
+  <link rel="stylesheet"href="page intrigue.css">
+
+  <script src="https://kit.fontawesome.com/d7659a8b0.js" crossoring="anonymous"></script>
+  <a href="isekai.html">Isekai</a>
+  <a href="differents anime.html">Romance</a>
+  <a href="Combat.html">Combats</a>
+  <a href="intrigue.html">Intrigue</a>
+  <a href="All.html">All</a>
+  <form class="search-bar">
+    <input type="text"  id="searchBar" placeholder="Rechercher un Anime...">
+  <!--    <button type="submit">🔍</button>-->
+  </form>
+<!-- Conçu par SH_MRS, Avec l'aide de Lnaure et bye_wiziko_op1-->
+</head>
+
+<body>
+  
+<div class="anime">
+    <h2>Death note</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/Death note.html">
+        <img src="https://static.posters.cz/image/750/affiches-et-posters/death-note-from-the-shadows-i58005.jpg" alt="Death note" height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>Dr stone</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/Dr stone.html">
+        <img src="https://i5.walmartimages.com/seo/Dr-Stone-Manga-Anime-TV-Show-Poster-Characters-Size-24-x-36-Black-Poster-Hanger_10f60712-1568-41a0-84b6-229cbd9ad532.aec4aaca5932585f2340e9a39de29ba5.jpeg" alt="Dr stone" height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>Oshi no ko</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/Oshi no ko.html">
+        <img src="https://img.anime2you.de/2023/03/oshi-no-ko-visual-english-1449x2048.jpg" alt="ONK" height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>Classroom of the elite</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/Classroom of the elite.html">
+        <img src="https://fr.web.img6.acsta.net/r_1280_720/img/07/7d/077d23824aac221d899ed27a61027c64.jpg" alt="RAGF" height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>L'atilier des sorcier</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/L'atilier des sorcier.html">
+        <img src="https://image.tmdb.org/t/p/w780/dH1ZLuGubotqtQbRSCSvYswb3HP.jpg" alt="RAGF" height="200" width="150">
+    </a>
+</div>
+
+<!-- DA: bye_wiziko_op1,
+System: Lnaure -->
+
+<script>
+const searchBar = document.getElementById('searchBar');
+const animes = document.querySelectorAll('.anime');
+
+searchBar.addEventListener('input', function() {
+
+    const search = this.value.toLowerCase();
+
+    animes.forEach(anime => {
+
+        const title = anime.querySelector('h2')
+                           .textContent
+                           .toLowerCase();
+
+        if (title.includes(search)) {
+            anime.style.display = '';
+        } else {
+            anime.style.display = 'none';
+        }
+    });
+});
+</script>
+
+
+</body>

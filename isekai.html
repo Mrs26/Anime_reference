@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title> La reférence Isekai </title>
+  <link rel="stylesheet"href="page isekai.css">
+
+  <script src="https://kit.fontawesome.com/d7659a8b0.js" crossoring="anonymous"></script>
+  <a href="isekai.html">Isekai</a>
+  <a href="differents anime.html">Romance</a>
+  <a href="Combat.html">Combats</a>
+  <a href="intrigue.html">Intrigue</a>
+  <a href="All.html">All</a>
+  <form class="search-bar">
+    <input type="text"  id="searchBar" placeholder="Rechercher un Anime...">
+  <!--    <button type="submit">🔍</button>-->
+  </form>
+<!-- Conçu par SH_MRS, Avec l'aide de Lnaure et bye_wiziko_op1-->
+</head>
+
+
+<body>
+
+<section id="Haut de page"></section>
+  
+<h1> La réference Isekai</h1>
+
+<div class="anime">
+    <h2>chilling in the another world</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/chilling in the another world.html">
+        <img src="https://animotaku.fr/wp-content/uploads/2023/10/anime-chillin-in-another-world-with-level-2-super-cheat-powers-visuel-1.jpeg" alt="chillingintheanotherworld" height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>Konosuba</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/Konosuba.html">
+        <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2024/02/IMG_5541.jpg" alt="Konosuba" height="200" width="150">
+    </a>
+</div>
+  
+<div class="anime">
+    <h2>mon statue d'assassin est bien supérieur </h2>
+    <h2>à celui du hero</h2>
+    <p>⭐⭐⭐</p>
+    <a href="html/mon statue d'assassin est bien supérieur.html">
+        <img src="https://media.techtribune.net/d-2/2025/07/Mon-statut-dassassin-depasse-evidemment-le-heros-revele-un-nouveau.jpg" alt="monstatuedassassinestbiensupérieurà..." height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>No game no life</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/No game no life.html">
+        <img src="https://image.tmdb.org/t/p/original/cCBB6BGRj5nCTaEgogDtkHfjOLK.jpg" alt="ngnlz" height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>Re:Zero</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/ReZero.html">
+        <img src="https://tv-programme.com/photos/vod/posters/11/117241/source.jpg" alt="rezero" height="200" width="150">
+    </a>
+</div>
+
+<div class="anime">
+    <h2>The eminence in shadow</h2>
+    <p>⭐⭐⭐⭐</p>
+    <a href="html/The eminence in shadow.html">
+        <img src="https://th.bing.com/th/id/R.988674d37477a85a5c1cd5aca5d6c584?rik=ZSKRfKGqU3AVhQ&pid=ImgRaw&r=0" alt="ES" height="200" width="150">
+    </a>
+</div>
+
+<!-- DA: bye_wiziko_op1,
+System: Lnaure -->
+
+<script>
+const searchBar = document.getElementById('searchBar');
+const animes = document.querySelectorAll('.anime');
+
+searchBar.addEventListener('input', function() {
+
+    const search = this.value.toLowerCase();
+
+    animes.forEach(anime => {
+
+        const title = anime.querySelector('h2')
+                           .textContent
+                           .toLowerCase();
+
+        if (title.includes(search)) {
+            anime.style.display = '';
+        } else {
+            anime.style.display = 'none';
+        }
+    });
+});
+</script>
+
+
+</body>
+</html>
