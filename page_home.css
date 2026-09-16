@@ -106,8 +106,21 @@ a {
 	left: 560px;
 
 }
+ .p{
+ 	position: relative;
+ 	top:500px;
+ 	left: ;
+ }
+.img{
+	position: relative;
+	top: 500px;
+}
 
-
+.logo{
+	position: relative;
+ top: -1360px;
+ left: 10px;
+}
 
 
 
