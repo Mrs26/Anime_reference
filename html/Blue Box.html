@@ -2,15 +2,16 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title> Blue Box </title>
-  <link rel="stylesheet"href="page all.css">
-
+  <title> La reférence</title>
+  <link rel="stylesheet"href="page_all_24ep.css">
+<link rel="icon" type="immage/png" href="../anime_ref.png">
   <script src="https://kit.fontawesome.com/d7659a8b0.js" crossoring="anonymous"></script>
+
+  <a href="../All.html">All</a>
   <a href="../isekai.html">Isekai</a>
   <a href="../differents anime.html">Romance</a>
   <a href="../Combat.html">Combats</a>
   <a href="../intrigue.html">Intrigue</a>
-  <a href="../All.html">All</a>
   <form class="search-bar">
     <input type="text"  id="searchBar" placeholder="Rechercher un Anime...">
   <!--    <button type="submit">🔍</button>-->
@@ -18,13 +19,326 @@
 <!-- Conçu par SH_MRS, Avec l'aide de Lnaure-->
 </head>
 <body>
-  
-<div class="anime">
+
+
     <h2>Blue Box</h2>
-    <p>Unclasified</p>
+    <p>8.15⭐</p>
     <a href="Blue Box.html">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoBkXwIaEQ54RxCIDqEMPYL57Jy6d-zEKpmnGXFxuWPe3ad67Ogc2c9OfD09I1jiJ9l1jKnSGn73MRwnCGYOJgWAeUXwZygl79kAQnKT2Qk5EM1cibEBnEI_Z8Ss7-ArTUr2L0MFL4LWI_CGALn3rIiOuubVimAyxJk6cO47qjn4XDFLcGl60Msdz4aH90/s2560/blue-box-poster.jpg" alt="Bluebox" height="200" width="150">
     </a>
+
+
+
+
+<h4>Blue Box est une série manga qui suit Taiki Inomata, un jeune</h4>
+<h4> athlète de badminton, qui est amoureux de Chinatsu Kano, une </h4>
+<h4>joueuse de basket-ball. Ensemble, ils s'entraînent tous les matins </h4>
+<h4>au gymnase, et leur relation prend un tournant lors d'un jour de </h4>
+<h4>printemps. Taiki, malgré ses difficultés, tente de se surpasser dans </h4>
+<h4>son sport pour conquérir Chinatsu, qui partage également des objectifs</h4>
+<h4> de basket-ball. La série mêle romance et sport, offrant des moments</h4>
+<h4> touchants et des défis pour les personnages.  </h4>
+<h4>.</h4>
+
+<div class="point_sec">
+<div class="nom">
+  <h5>Great</h5>
+</div>
+</div>
+<div class="point">
+<div class="nom">
+  <h5>awesom</h5>
+</div>
+</div>
+<div class="point_m">
+<div class="nom">
+  <h5>masterpiece</h5>
+</div>
 </div>
 
+<div class="dropdown">
+  <button class="dropdown-btn" aria-expanded="false" aria-haspopup="true">saison </button>
+  <ul class="dropdown-menu">
+  <li><a class="btn" onclick="saisonUN()">Saison1</a></li>
+  <li><a class="btnsdeux" onclick="saisonDEUX()">Saison2</a></li>
+  </ul>
+</div>
+
+
+<script>
+function saisonDEUX() {
+  document.getElementById("saisondeux").style.display = "block";
+  document.getElementById("saisonun").style.display = "none";
+}
+
+function saisonUN() {
+  document.getElementById("saisonun").style.display = "block";
+  document.getElementById("saisondeux").style.display = "none";
+}
+
+const dropdown = document.querySelector('.dropdown');
+const btn = dropdown.querySelector('.dropdown-btn');
+
+function toggleMenu(open) {
+  dropdown.classList.toggle('open', open);
+  btn.setAttribute('aria-expanded', open);
+}
+
+// Ouvrir / fermer au clic sur le bouton
+btn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  toggleMenu(!dropdown.classList.contains('open'));
+});
+
+// Fermer en cliquant ailleurs
+document.addEventListener('click', () => toggleMenu(false));
+
+// Fermer avec la touche Échap
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') toggleMenu(false);
+});
+
+</script>
+
+<div id="saisonun" >
+<div class="un">
+  <div class="E">
+    <h5>E1</h5>
+  </div>
+  <div class="note">
+    <h3>8.74</h3>
+  </div>
+</div>
+<div class="deux">
+  <div class="E">
+    <h5>E2</h5>
+  </div>
+  <div class="note">
+    <h3>8.82</h3>
+  </div>
+</div>
+<div class="troisg">
+  <div class="E">
+    <h5>E3</h5>
+  </div>
+  <div class="note">
+    <h3>9.00</h3>
+  </div>
+</div>
+<div class="quatre">
+  <div class="E">
+    <h5>E4</h5>
+  </div>
+  <div class="note">
+    <h3>8.98</h3>
+  </div>
+</div>
+<div class="cinqg">
+  <div class="E">
+    <h5>E5</h5>
+  </div>
+  <div class="note">
+    <h3>9.10</h3>
+  </div>
+</div>
+<div class="six">
+  <div class="E">
+    <h5>E6</h5>
+  </div>
+  <div class="note">
+    <h3>9.10</h3>
+  </div>
+</div>
+<div class="sept">
+  <div class="E">
+    <h5>E7</h5>
+  </div>
+  <div class="note">
+    <h3>8.86</h3>
+  </div>
+</div>
+<div class="huit">
+  <div class="E">
+    <h5>E8</h5>
+  </div>
+  <div class="note">
+    <h3>8.82</h3>
+  </div>
+</div>
+<div class="neuf">
+  <div class="E">
+    <h5>E9</h5>
+  </div>
+  <div class="note">
+    <h3>8.90</h3>
+  </div>
+</div>
+<div class="dix">
+  <div class="E">
+    <h5>E10</h5>
+  </div>
+  <div class="note">
+    <h3>8.58</h3>
+  </div>
+</div>
+<div class="onze">
+  <div class="E">
+    <h5>E11</h5>
+  </div>
+  <div class="note">
+    <h3>8.86</h3>
+  </div>
+</div>
+<div class="douze">
+  <div class="E">
+    <h5>E12</h5>
+  </div>
+  <div class="note">
+    <h3>8.96</h3>
+  </div>
+</div>
+
+<div class="treize">
+  <div class="E">
+    <h5>E13</h5>
+  </div>
+  <div class="note">
+    <h3>8.82</h3>
+  </div>
+</div>
+
+
+<div class="quatorzeg">
+  <div class="E">
+    <h5>E14</h5>
+  </div>
+  <div class="note">
+    <h3>9.24</h3>
+  </div>
+</div>
+
+
+<div class="quinzeg">
+  <div class="E">
+    <h5>E15</h5>
+  </div>
+  <div class="note">
+    <h3>9.04</h3>
+  </div>
+</div>
+
+
+<div class="seizeg">
+  <div class="E">
+    <h5>E16</h5>
+  </div>
+  <div class="note">
+    <h3>9.00</h3>
+  </div>
+</div>
+
+
+<div class="dix-sept">
+  <div class="E">
+    <h5>E17</h5>
+  </div>
+  <div class="note">
+    <h3>8.82</h3>
+  </div>
+</div>
+
+
+<div class="dix-huitg">
+  <div class="E">
+    <h5>E18</h5>
+  </div>
+  <div class="note">
+    <h3>9.10</h3>
+  </div>
+</div>
+
+
+<div class="dix-neufg">
+  <div class="E">
+    <h5>E19</h5>
+  </div>
+  <div class="note">
+    <h3>9.00</h3>
+  </div>
+</div>
+
+
+<div class="vingt">
+  <div class="E">
+    <h5>E20</h5>
+  </div>
+  <div class="note">
+    <h3>8.88</h3>
+  </div>
+</div>
+
+
+<div class="vingt-et-un">
+  <div class="E">
+    <h5>E21</h5>
+  </div>
+  <div class="note">
+    <h3>8.92</h3>
+  </div>
+</div>
+
+
+<div class="vingt-deux">
+  <div class="E">
+    <h5>E22</h5>
+  </div>
+  <div class="note">
+    <h3>8.92</h3>
+  </div>
+</div>
+
+<div class="vingt-trois">
+  <div class="E">
+    <h5>E23</h5>
+  </div>
+  <div class="note">
+    <h3>8.74</h3>
+  </div>
+</div>
+
+<div class="vingt-quatreg">
+  <div class="E">
+    <h5>E24</h5>
+  </div>
+  <div class="note">
+    <h3>9.00</h3>
+  </div>
+</div>
+
+<div class="vingt-cinq">
+  <div class="E">
+    <h5>E25</h5>
+  </div>
+  <div class="note">
+    <h3>8.60</h3>
+  </div>
+</div>
+
+</div>
+
+
+<div id="saisondeux" style="display: none;">
+  
+  <div class="un">
+    <div class="E">
+     <h5>E1</h5>
+    </div>
+    <div class="note">
+      <h3>---</h3>
+    </div>
+  </div>
+
+</div> 
+
 </body>
+</html>
