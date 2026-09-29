@@ -54,6 +54,12 @@ h3{
 	display: inline;
 }
 
+
+
+
+
+
+
 .E{
 	position: relative;
 	left: 8px;	
@@ -69,14 +75,15 @@ h3{
  	left:13px ;
  	top: -5px;
  }
+
 .point{ 
 	position: relative;
 	height: 10px;
 	width: 10px;
 	background-color: #064F01;
 	border-radius: 10px 10px 10px 10px;
-	top:-1790px;
-	left:400px;
+	top:-660px;
+	left:525px;
 }
 
 .point_sec{ 
@@ -85,20 +92,21 @@ h3{
 	width: 10px;
 	background-color:#45E645;
 	border-radius: 10px 10px 10px 10px;
-	top:-1780px;
-	left:500px;
+	top:-650px;
+	left:625px;
 }
 
-.great{
-	opacity: .8;
-	background-color:#45E645;
+.point_m{ 
+	position: relative;
+	height: 10px;
+	width: 10px;
+	background-color:#1C6870;
+	border-radius: 10px 10px 10px 10px;
+	top:-670px;
+	left:400px;
 }
 
-.awesome{
-	background-color: #054200;
-	opacity: .8;
-	color: #054200;
-}
+
 
 .un{ 
 	position: relative;
@@ -110,12 +118,33 @@ h3{
 	left:400px;
 	opacity: .8;
 }
+.ung{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-650px;
+	left:400px;
+	opacity: .8;
+}
+
 
 .deux{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
 	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-700px;
+	left:500px;
+	opacity: .8;
+}
+.deuxg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
 	border-radius: 10px 10px 10px 10px;
 	top:-700px;
 	left:500px;
@@ -132,12 +161,42 @@ h3{
 	left:600px;
 	opacity: .8;
 }
+.troisg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-750px;
+	left:600px;
+	opacity: .8;
+}
 
 .quatre{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
 	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-800px;
+	left:700px;
+	opacity: .8;
+}
+.quatreg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-800px;
+	left:700px;
+	opacity: .8;
+}
+.quatrem{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#1C6870;
 	border-radius: 10px 10px 10px 10px;
 	top:-800px;
 	left:700px;
@@ -154,12 +213,53 @@ h3{
 	left:800px;
 	opacity: .8;
 }
+.cinqg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-850px;
+	left:800px;
+	opacity: .8;
+}
+.cinqm{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#1C6870;
+	border-radius: 10px 10px 10px 10px;
+	top:-850px;
+	left:800px;
+	opacity: .8;
+}
+
 
 .six{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
 	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-900px;
+	left:900px;
+	opacity: .8;
+}
+.sixg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-900px;
+	left:900px;
+	opacity: .8;
+}
+.sixm{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#1C6870;
 	border-radius: 10px 10px 10px 10px;
 	top:-900px;
 	left:900px;
@@ -176,12 +276,52 @@ h3{
 	left:1000px;
 	opacity: .8;
 }
+.septg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-950px;
+	left:1000px;
+	opacity: .8;
+}
+.septm{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#1C6870;
+	border-radius: 10px 10px 10px 10px;
+	top:-950px;
+	left:1000px;
+	opacity: .8;
+}
 
 .huit{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
 	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-1000px;
+	left:1100px;
+	opacity: .8;
+}
+.huitg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1000px;
+	left:1100px;
+	opacity: .8;
+}
+.huitm{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#1C6870;
 	border-radius: 10px 10px 10px 10px;
 	top:-1000px;
 	left:1100px;
@@ -198,6 +338,17 @@ h3{
 	left:1200px;
 	opacity: .8;
 }
+.neufg{
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1050px;
+	left:1200px;
+	opacity: .8;
+}
+
 
 .dix{ 
 	position: relative;
@@ -210,11 +361,33 @@ h3{
 	opacity: .8;
 }
 
+.dixg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1040px;
+	left:400px;
+	opacity: .8;
+}
+
+
 .onze{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
 	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-1090px;
+	left:500px;
+	opacity: .8;
+}
+.onzeg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
 	border-radius: 10px 10px 10px 10px;
 	top:-1090px;
 	left:500px;
@@ -231,8 +404,27 @@ h3{
 	left:600px;
 	opacity: .8;
 }
+.douzeg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1140px;
+	left:600px;
+	opacity: .8;
+}
 
 .treize{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	border-radius: 10px 10px 10px 10px;
+	top:-1190px;
+	left:700px;
+	background-color: #45E645;
+}
+.treizeg{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
@@ -252,12 +444,32 @@ h3{
 	left:800px;
 	opacity: .8;
 }
+.quatorzeg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1240px;
+	left:800px;
+	opacity: .8;
+}
 
 .quinze{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
 	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-1290px;
+	left:900px;
+	opacity: .8;
+}
+.quinzeg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
 	border-radius: 10px 10px 10px 10px;
 	top:-1290px;
 	left:900px;
@@ -274,12 +486,42 @@ h3{
 	left:1000px;
 	opacity: .8;
 }
+.seizeg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1340px;
+	left:1000px;
+	opacity: .8;
+}
+.seizem{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#1C6870;
+	border-radius: 10px 10px 10px 10px;
+	top:-1340px;
+	left:1000px;
+	opacity: .8;
+}
 
 .dix-sept{ 
 	position: relative;
 	height: 50px;
 	width: 90px;
 	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-1390px;
+	left:1100px;
+	opacity: .8;
+}
+.dix-septg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
 	border-radius: 10px 10px 10px 10px;
 	top:-1390px;
 	left:1100px;
@@ -293,7 +535,18 @@ h3{
 	border-radius: 10px 10px 10px 10px;
 	top:-1440px;
 	left:1200px;
+	background-color: #45E645;
+	opacity: .8;
+}
+.dix-huitg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	border-radius: 10px 10px 10px 10px;
+	top:-1440px;
+	left:1200px;
 	background-color: #064F01;
+	opacity: .8;
 }
 
 .dix-neuf{ 
@@ -303,7 +556,18 @@ h3{
 	border-radius: 10px 10px 10px 10px;
 	top:-1430px;
 	left:400px;
+	background-color: #45E645;
+	opacity: .8;
+}
+.dix-neufg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	border-radius: 10px 10px 10px 10px;
+	top:-1430px;
+	left:400px;
 	background-color: #064F01;
+	opacity: .8;
 }
 
 .vingt{ 
@@ -313,7 +577,18 @@ h3{
 	border-radius: 10px 10px 10px 10px;
 	top:-1480px;
 	left:500px;
+	background-color: #45E645;
+	opacity: .8;
+}
+.vingtg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	border-radius: 10px 10px 10px 10px;
+	top:-1480px;
+	left:500px;
 	background-color: #064F01;
+	opacity: .8;
 }
 
 .vingt-et-un{ 
@@ -323,7 +598,28 @@ h3{
 	border-radius: 10px 10px 10px 10px;
 	top:-1530px;
 	left:600px;
+	background-color: #45E645;
+	opacity: .8;
+}
+.vingt-et-ung{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	border-radius: 10px 10px 10px 10px;
+	top:-1530px;
+	left:600px;
 	background-color: #064F01;
+	opacity: .8;
+}
+.vingt-et-unm{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	border-radius: 10px 10px 10px 10px;
+	top:-1530px;
+	left:600px;
+	background-color: #1C6870;
+	opacity: .8;
 }
 
 .vingt-deux{ 
@@ -336,6 +632,153 @@ h3{
 	left:700px;
 	opacity: .8;
 }
+.vingt-deuxg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1580px;
+	left:700px;
+	opacity: .8;
+}
+
+.vingt-trois{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-1630px;
+	left:800px;
+	opacity: .8;
+}
+.vingt-troisg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1630px;
+	left:800px;
+	opacity: .8;
+}
+
+.vingt-quatre{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-1680px;
+	left:900px;
+	opacity: .8;
+}
+.vingt-quatreg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1680px;
+	left:900px;
+	opacity: .8;
+}
+.vingt-quatrem{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#1C6870;
+	border-radius: 10px 10px 10px 10px;
+	top:-1680px;
+	left:900px;
+	opacity: .8;
+}
+
+.vingt-cinq{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#45E645;
+	border-radius: 10px 10px 10px 10px;
+	top:-1730px;
+	left:1000px;
+	opacity: .8;
+}
+.vingt-cinqg{ 
+	position: relative;
+	height: 50px;
+	width: 90px;
+	background-color:#064F01;
+	border-radius: 10px 10px 10px 10px;
+	top:-1730px;
+	left:1000px;
+	opacity: .8;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  top: -700px;
+  left:260px;
+}
+
+.dropdown-btn {
+  padding: 10px 16px;
+  background: #9DAB09;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* caché par défaut */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: all 0.2s ease;
+}
+
+.dropdown.open .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background: #f3f4f6;
+}
+
+
+
+
+
+
+
+
+
 
 Button{
 	color: #9DAB09;
@@ -354,19 +797,6 @@ a {
 	margin:10px;
 	text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .search-bar {
   display: flex;
