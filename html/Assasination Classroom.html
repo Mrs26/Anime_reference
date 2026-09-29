@@ -55,8 +55,14 @@
 </div>
 </div>
 
-<button class="btnsdeux" onclick="saisonDEUX()">Saison2</button>
-<button class="btn" onclick="saisonUN()">Saison1</button>
+<div class="dropdown">
+  <button class="dropdown-btn" aria-expanded="false" aria-haspopup="true">saison </button>
+  <ul class="dropdown-menu">
+  <li><a class="btn" onclick="saisonUN()">Saison1</a></li>
+  <li><a class="btnsdeux" onclick="saisonDEUX()">Saison2</a></li>
+  </ul>
+</div>
+
 
 <script>
 function saisonDEUX() {
@@ -68,6 +74,28 @@ function saisonUN() {
   document.getElementById("saisonun").style.display = "block";
   document.getElementById("saisondeux").style.display = "none";
 }
+
+const dropdown = document.querySelector('.dropdown');
+const btn = dropdown.querySelector('.dropdown-btn');
+
+function toggleMenu(open) {
+  dropdown.classList.toggle('open', open);
+  btn.setAttribute('aria-expanded', open);
+}
+
+// Ouvrir / fermer au clic sur le bouton
+btn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  toggleMenu(!dropdown.classList.contains('open'));
+});
+
+// Fermer en cliquant ailleurs
+document.addEventListener('click', () => toggleMenu(false));
+
+// Fermer avec la touche Échap
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') toggleMenu(false);
+});
 
 </script>
 
